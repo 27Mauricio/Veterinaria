@@ -1,5 +1,11 @@
+html {
+    height: 100%;
+}
+
 body {
-    background-color: aquamarine;
+    background-image: linear-gradient(#8e9eab, #eef2f3);
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.10rem;
 }
 
 .container {
@@ -15,7 +21,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 main {
@@ -25,10 +31,10 @@ main {
 }
 
 .cards{
-    background-color: aquamarine;
     min-height: 300px;
     display: flex;
     justify-content: space-between;
+    margin-top: 10%;
 }
 
 .card1 {
@@ -51,6 +57,9 @@ main {
 
 .herobox1 {
     flex: 2;
+    text-align: justify;
+    padding-right: 100px;
+    padding-left: 2.5%;
 }
 
 .herobox2 {
@@ -59,6 +68,8 @@ main {
 
 #dog {
     width: 350px;
+    height: 350px;
+    border-radius: 50%;
 }
 
 #logo {
