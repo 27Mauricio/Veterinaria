@@ -20,8 +20,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    margin-top: 1px;
     padding-bottom: 10px;
+}
+
+nav a {
+    margin-right: 20px;   
 }
 
 main {
@@ -31,29 +35,55 @@ main {
 }
 
 .cards{
-    min-height: 300px;
+    min-height: 200px;
     display: flex;
     justify-content: space-between;
     margin-top: 10%;
 }
 
 .card1 {
-    background-color: antiquewhite;
-    min-height: 300px;
-    width: 30%;
+    background-image: url('../img/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 15%;
+    transition: opacity 0.5s ease;
+}
+
+.card1:hover {
+    opacity: 0.5;
 }
 
 .card2 {
-    background-color: rgb(80, 51, 13);
-    min-height: 300px;
-    width: 30%;
+    background-image: url('../img/img2.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    width: 20%;
+    border-radius: 50%;
+    transition: opacity 0.5s ease;
+}
+
+.card2:hover {
+    opacity: 0.5;
 }
 
 .card3 {
-    background-color: rgb(46, 29, 7);
-    min-height: 300px;
-    width: 30%;
+    background-image: url('../img/img3.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 15%;
+    transition: opacity 0.5s ease;
 }
+
+.card3:hover {
+    opacity: 0.5;
+  }
 
 .herobox1 {
     flex: 2;
@@ -67,8 +97,8 @@ main {
 }
 
 #dog {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 }
 
