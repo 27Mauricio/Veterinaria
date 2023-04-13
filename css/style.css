@@ -3,14 +3,14 @@ html {
 }
 
 body {
-    background-image: linear-gradient(#8e9eab, #eef2f3);
+    background-color: thistle;
     font-family: 'Dosis', sans-serif;
     font-size: 1.10rem;
 }
 
 .container {
     width: 1024px;
-    min-height: 300px;
+    min-height: 500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -22,23 +22,78 @@ header {
     align-items: center;
     margin-top: 1px;
     padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
 }
 
 nav a {
-    margin-right: 20px;   
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 11px 25px 11px 25px; 
+    border-radius: 15px;
+    display: inline-block; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.425);   
 }
+
+i {
+    padding: 10px;
+}
+
+.cita:hover {
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+
+.blog:hover {
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+
+.contacto:hover {
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0);
+}
+
 
 main {
     min-height: 300px;
     display: flex;
     align-items: center;
+    margin-top: 30px;
+}
+
+#cita {
+    color: red;
+    text-decoration: none;
+    border: 2px dotted black;
+    padding: 11px 25px 11px 25px; 
+    border-radius: 15px;
+    display: inline-block; 
+    margin-top: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.425);
+}
+
+#cita:hover {
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0);
 }
 
 .cards{
     min-height: 200px;
     display: flex;
     justify-content: space-between;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .card1 {
@@ -50,10 +105,12 @@ main {
     border-radius: 50%;
     margin-left: 15%;
     transition: opacity 0.5s ease;
+    box-shadow: 2px 2px 2px black;
 }
 
 .card1:hover {
     opacity: 0.5;
+    box-shadow: 2px 2px 5px black;
 }
 
 .card2 {
@@ -64,10 +121,12 @@ main {
     width: 20%;
     border-radius: 50%;
     transition: opacity 0.5s ease;
+    box-shadow: 2px 2px 2px black;
 }
 
 .card2:hover {
     opacity: 0.5;
+    box-shadow: 2px 2px 5px black;
 }
 
 .card3 {
@@ -79,10 +138,12 @@ main {
     border-radius: 50%;
     margin-right: 15%;
     transition: opacity 0.5s ease;
+    box-shadow: 2px 2px 2px black;
 }
 
 .card3:hover {
     opacity: 0.5;
+    box-shadow: 2px 2px 5px black;
   }
 
 .herobox1 {
